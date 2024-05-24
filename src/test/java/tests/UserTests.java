@@ -56,7 +56,7 @@ public class UserTests extends Config {
     @Test
     public void getUserByIdTest() {
 
-        String userId = "664e22cbe9579cdc4e86c876";
+        String userId = "66504e46f1263780e3b2c6ef";
         Response response = given()
                 .pathParam("id", userId)
                 .when().get(GET_USER_BY_ID);
@@ -69,7 +69,7 @@ public class UserTests extends Config {
     @Test
     public void deleteUserByIdTest() {
 
-        String userId = "664e22cbe9579cdc4e86c876";
+        String userId = "66504ea94b52247ebbdea830";
         Response response = given()
                 .pathParam("id", userId)
                 .when().delete(DELETE_USER_BY_ID);
@@ -95,7 +95,7 @@ public class UserTests extends Config {
                         "    \"lastName\": \"Rodrigues\",\n" +
                         "    \"picture\": \"https://randomuser.me/api/portraits/med/women/39.jpg\",\n" +
                         "    \"gender\": \"female\",\n" +
-                        "    \"email\": \"naomi.rodritryurt1@example.com\",\n" +
+                        "    \"email\": \"naomi.ro1yuyfx@example.com\",\n" +
                         "    \"dateOfBirth\": \"1973-06-13T23:33:31.385Z\",\n" +
                         "    \"phone\": \"(40) 6623-4814\",\n" +
                         "    \"location\": {\n" +
